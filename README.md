@@ -48,15 +48,15 @@ Para ejecutar:
 
    # Verifica el formato del nombre de la rama
    if [[ ! $branch_name =~ ^(feature|hotfix|bug)[/][0-9]{6,6}[a-z_-]+$ ]]; then
-   echo "El nombre de la rama '$branch_name' no cumple con el formato permitido."
-   echo "Formato permitido: [categoria]/[codigo WI]-[nombre-rama]"
-   echo "Categorias permitidas:"
-   for i in "${categories[@]}"
-      do
-         echo "$i"
-      done
-   echo "Ejemplo: ${categories[0]}/123456-not-found-message"
-   exit 1
+      echo "El nombre de la rama '$branch_name' no cumple con el formato permitido."
+      echo "Formato permitido: [categoria]/[codigo WI]-[nombre-rama]"
+      echo "Categorias permitidas:"
+      for i in "${categories[@]}"
+         do
+            echo "$i"
+         done
+      echo "Ejemplo: ${categories[0]}/123456-not-found-message"
+      exit 1
    fi
    ```
 
