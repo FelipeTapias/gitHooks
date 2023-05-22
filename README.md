@@ -1,7 +1,7 @@
 # Notas de Desarrollador
 
 ## Objetivo del proyecto
-Demostrar la capacidad y/o el alcance que tienen los Git Hooks.
+Demostrar la capacidad y/o el alcance que tienen los [Git Hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks).
 
  ## Arquitectura del encarpetado
  - dist: Se encuentran los archivos transpilados.
