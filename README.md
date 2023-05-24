@@ -8,11 +8,17 @@
  - src: Archivos originales de typescript listos para ser transpilados.
  ```
  dist
+    -- carpetaDestino: carpeta contenedora de los archivos procesados.
+    -- carpetaOrigen: carpet contenedora de los archivos a procesar.
     -- class: Contenedor de las clases.
+    -- gitHooks: carpeta contenedora de los Hooks y el script para procesarlos.
     -- models: Contenedor de las interfaces.
     main.js: Contenedor de las instancias principales.
  src
+    -- carpetaDestino: carpeta contenedora de los archivos procesados.
+    -- carpetaOrigen: carpet contenedora de los archivos a procesar.
     -- class: Contenedor de las clases.
+    -- gitHooks: carpeta contenedora de los Hooks y el script para procesarlos.
     -- models: Contenedor de las interfaces.
     main.js: Contenedor de las instancias principales.
  ```

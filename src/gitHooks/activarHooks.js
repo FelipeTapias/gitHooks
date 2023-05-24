@@ -4,7 +4,7 @@ const path = require('path');
 const exec = require('child_process').exec;
 
 // Variables para almacenar el nombre de las carpetas.
-const carpetaOrigen = '../carpetaPrueba';
+const carpetaOrigen = '../carpetaOrigen';
 const carpetaDestino = '../carpetaDestino';
 
 // Path de las carpetas origen y destino.
